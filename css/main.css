@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding: 0 10%;
+}
+.btn{
+    background: #b5f1da;
+    border-radius: 2px;
+    font-size: 2.5vh;
+}
+section{
+    height: 100vh;
+}
+section h2{
+    margin-top: 5%;
+    font-size: 7vh;
+    text-align: center;
+    font-weight: 600;
+}
+section p{
+    margin-top: 4%;
+    padding: 0 15%;
+    text-align: center;
+    opacity: 0.7;
+}
+.gray{
+    background: #edf1f4;
+}
+/*-------------------Navbar-----------------------------------------------*/
+
+.navbar-default {
+    background: transparent;
+    padding: 3% 10%;
+    border: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-align: right;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+
+.navbar-nav {
+    float: none;
+    text-align: right;
+}
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+.navbar img {
+    width: 20vh;
+    height: auto;
+}
+/*-------------------Navbar-----------------------------------------------*/
+
+header {
+    background: url(../img/background.png) no-repeat;
+    background-size: 105%;
+    height: 100vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 8vh;
+    font-weight: 600;
+}
+header p{
+    margin-top: 6vh;
+    font-size: 2.5vh;
+    color: #ffff;
+    opacity: 0.6;
+    width: 60%;
+}
+header button {
+    margin-top: 10vh;
+}
+/*------------------Header------------------------*/
+/*------------------Advices------------------------*/
+#advices{
+    height: 130vh;
+}
+.kek{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-device-width:480px){
+    .kek{
+        flex-direction: column;
+    }
+}
+.kek h3{
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.kek p{
+    font-size: 2vh;
+}
+/*------------------Advices------------------------*/
