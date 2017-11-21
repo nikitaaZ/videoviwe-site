@@ -86,22 +86,76 @@ header button {
 #advices{
     height: 130vh;
 }
-.kek{
+.advices{
     margin-top: 5%;
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 @media only screen and (max-device-width:480px){
-    .kek{
+    .advices{
         flex-direction: column;
     }
 }
-.kek h3{
+.advices h3{
     font-size: 2.5vh;
     font-weight: 600;
 }
-.kek p{
+.advices p{
+    opacity: 1;
     font-size: 2vh;
 }
 /*------------------Advices------------------------*/
+/*--------------Services---------------------------*/
+#services{
+    height: 130vh;
+}
+.services{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+#services>.container-fluid>.row-fluid>p{
+    margin-top: 2%;
+    font-size: 2.6vh;
+    width: 100%;
+    opacity: 1;
+}
+.services>div{
+    border-radius: 10px;
+    flex-basis: 70%;
+    background:#d9e4ec;
+    margin:5% 3%;
+    padding: 5% 0;
+}
+@media only screen and (max-device-width:480px){
+    .services{
+        flex-direction: column;
+    }
+}
+/*--------------Services---------------------------*/
+/*--------------About------------------------------*/
+#iphone{
+    margin-top: 2%;
+}
+#iphone img{
+    height: 85vh;
+}
+#about>.container-fluid>.row-fluid {
+    margin-top: 5%;
+    display: flex;
+}
+#about p{
+    text-align: left;
+    opacity: 1;
+}
+/*--------------About------------------------------*/
+/*--------------Why we-----------------------------*/
+#whywe h2{
+    margin-top: 40vh;
+}
+#whywe p{
+    opacity: 1;
+    font-size: 2.5vh;
+}
+/*--------------Why we-----------------------------*/
