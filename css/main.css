@@ -249,14 +249,16 @@ footer{
 }
 /*------------Mobile------------------------------*/
 @media only screen and (max-device-width:480px){
+    .navbar-nav {
+    float: none;
+    text-align: center;
+}
     .navbar-default {
     background: transparent;
     padding: 0;
     border: 0;
     }
     .navbar-default .navbar-nav > li > a {
-    text-align: left;
-    float: left;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 2vh;
@@ -274,6 +276,48 @@ footer{
     color: #ffff;
     font-size: 3vh;
     font-weight: 600;
+    }
+    header p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    color: #ffff;
+    opacity: 0.6;
+    width: 80%;
+    }
+    section h2{
+    margin-top: 5%;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: 600;
+    }
+    section p{
+    margin-top: 4%;
+    padding: 0 15%;
+    text-align: center;
+    opacity: 0.7;
+    }
+    #advices{
+    height: auto;
+    }
+    #services{
+    height:auto;
+    }
+    #about{
+        height: auto;
+    }
+    #forma{
+        background: url(../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png) no-repeat;
+        height: auto;
+    }
+    .form_contacts{
+        flex-direction: column;
+    }
+    .fform{
+        width: 80vw;
+    }
+    .contacts{
+        width: 80vw;
+        height: 50vh;
     }
 }
 /*------------Mobile------------------------------*/
