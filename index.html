@@ -139,7 +139,40 @@
         <div class="container-fluid">
             <div class="row-fluid">
                 <h2>Свяжитесь с нами и мы поможем вам </h2>
-                
+                <div class="form_contacts">
+                    <div class="fform">
+                       <h3>Оставьте ваши данные</h3>
+                        <form action='mail2.php' method='POST' name='form'>
+                                  <div class="form-group">
+                                      <input name='cont' type='phone'  class="form-control" placeholder="Ваше имя" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <input name='cont' type='phone'  class="form-control" placeholder="Email" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <textarea name='mess' cols="10" class="form-control" placeholder="Текст сообшения" required class="form-control gray" rows="10"></textarea>
+                                  </div>
+                                  <div class="form-groupr">
+                                      <button name='submit' type="submit" id="sendmess" class="btn text-center">связаться с нами</button>
+                                  </div>
+                                </form>
+                    </div>
+                    <div class="contacts">
+                        <h3>Контакты</h3>
+                        <div class="contacts_down">
+                            <img src="img/Shape1.png" alt="">
+                            <p>ул. Советская 345 <br>г.Брест</p>
+                        </div>
+                        <div class="contacts_down">
+                            <img style="padding: 3vh 0" src="img/Shape2.png" alt="">
+                            <a href="tel:+375297208928">+375 29 7208928</a>
+                            <br>
+                            <a href="tel:+375445331843">+375 44 5331843</a>
+                            <br>
+                            <a href="mailto:info@cctv-systems.by">info@cctv-systems.by</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

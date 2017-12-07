@@ -159,12 +159,121 @@ header button {
     font-size: 2.5vh;
 }
 /*--------------Why we-----------------------------*/
+/*------------Form---------------------------------*/
 #forma{
     background: url(../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png) no-repeat;
+    background-size: 105%;
+    height: 110vh;
 }
-footer{
-    height: 10vh;
+#forma h2{
+    margin-top: 5vh;
+    color: #ffffff;
+    margin-bottom: 7vh;
+}
+.form_contacts{
+    display: flex;
+    margin-bottom: 5vh;
+}
+.fform{
+    border-radius: 10px;
+    border: 2px solid #c1fee7;  
+    padding: 2vh 2vw;
+    width: 40vw;
+    text-align: left;
+    margin-bottom: 5vh;
+}
+.fform input{
+    height: 5vh;
+}
+.fform h3{
+    font-size: 3vh;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.form-control{
+    border-radius:0;
+    color: #ffff;
+    opacity: 1;
+    background: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #c1fee7;
+    resize: none;
+    font-size: 2.6vh;
+}
+.form-control::-webkit-input-placeholder {color:#ffffff;}
+.form-control::-moz-placeholder          {color:#ffffff;}
+.form-control:-moz-placeholder           {color:#ffffff;}
+.form-control:-ms-input-placeholder      {color:#ffffff;}
+/*------------Form---------------------------------*/
+/*------------Contacts-----------------------------*/
+.contacts h3{
+    font-size: 3vh;
+    color: #ffffff;
+}
+.contacts{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 40vw;
+    height: 50vh;
     text-align: center;
+}
+.contacts_down img{
+    float: left;
+    margin-left: 10vw;
+}
+.contacts_down p, .contacts_down a{
     color: white;
+    opacity: 1;
+    margin:0;
+    padding: 0;
+    float: left;
+    margin-left: 3vw;
+}
+.contacts_down a{
+    display:block;
+}
+/*------------Contacts-----------------------------*/
+footer{
+    padding-top: 3%;
+    height: 14vh;
+    text-align: center;
+    color: #ffffff;
     background: black;
 }
+/*------------Mobile------------------------------*/
+@media only screen and (max-device-width:480px){
+    .navbar-default {
+    background: transparent;
+    padding: 0;
+    border: 0;
+    }
+    .navbar-default .navbar-nav > li > a {
+    text-align: left;
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2vh;
+    }
+    .navbar img {
+    width: 15vh;
+    height: auto;
+    }
+    header {
+    background: url(../img/background.png) no-repeat;
+    height: 100vh;
+    }
+    h1 {
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 3vh;
+    font-weight: 600;
+    }
+}
+/*------------Mobile------------------------------*/
