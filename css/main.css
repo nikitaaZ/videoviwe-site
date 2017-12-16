@@ -6,29 +6,36 @@ body {
 .container-fluid {
     padding: 0 10%;
 }
-.btn{
+
+.btn {
     background: #b5f1da;
     border-radius: 2px;
     font-size: 2.5vh;
 }
-section{
+
+section {
     height: 100vh;
 }
-section h2{
+
+section h2 {
     margin-top: 5%;
     font-size: 7vh;
     text-align: center;
     font-weight: 600;
 }
-section p{
+
+section p {
+    font-size: 2.1vh;
     margin-top: 4%;
     padding: 0 15%;
     text-align: center;
     opacity: 0.7;
 }
-.gray{
+
+.gray {
     background: #edf1f4;
 }
+
 /*-------------------Navbar-----------------------------------------------*/
 
 .navbar-default {
@@ -53,10 +60,12 @@ section p{
     float: none;
     display: inline-block;
 }
+
 .navbar img {
     width: 20vh;
     height: auto;
 }
+
 /*-------------------Navbar-----------------------------------------------*/
 
 header {
@@ -67,125 +76,168 @@ header {
 
 h1 {
     text-transform: uppercase;
-    color: #ffff;
+    color: #ffffff;
     font-size: 8vh;
     font-weight: 600;
 }
-header p{
+
+header p {
     margin-top: 6vh;
     font-size: 2.5vh;
-    color: #ffff;
+    color: #ffffff;
     opacity: 0.6;
     width: 60%;
 }
+
 header button {
     margin-top: 10vh;
 }
+
 /*------------------Header------------------------*/
+
 /*------------------Advices------------------------*/
-#advices{
+
+#advices {
     height: 130vh;
 }
-.advices{
+
+.advices {
     margin-top: 5%;
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
-@media only screen and (max-device-width:480px){
-    .advices{
+
+@media only screen and (max-device-width:480px) {
+    .advices {
         flex-direction: column;
     }
 }
-.advices h3{
+
+.advices h3 {
     font-size: 2.5vh;
     font-weight: 600;
 }
-.advices p{
+
+.advices p {
     opacity: 1;
     font-size: 2vh;
 }
+
+.advices img {
+    height: 6vh;
+    width: 3vw;
+}
+
 /*------------------Advices------------------------*/
+
 /*--------------Services---------------------------*/
-#services{
+
+#services {
     height: 130vh;
 }
-.services{
+#services h3{
+    font-size: 3.5vh;
+}
+
+.services {
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
-#services>.container-fluid>.row-fluid>p{
+
+#services > .container-fluid > .row-fluid > p {
     margin-top: 2%;
     font-size: 2.6vh;
     width: 100%;
     opacity: 1;
 }
-.services>div{
+
+.services > div {
     border-radius: 10px;
     flex-basis: 70%;
-    background:#d9e4ec;
-    margin:5% 3%;
-    padding: 5% 0;
+    background: #d9e4ec;
+    margin: 5% 3%;
+    padding: 7vh 0vw;
 }
-@media only screen and (max-device-width:480px){
-    .services{
+
+@media only screen and (max-device-width:480px) {
+    .services {
         flex-direction: column;
     }
 }
+
 /*--------------Services---------------------------*/
+
 /*--------------About------------------------------*/
-#iphone{
+
+#iphone {
     margin-top: 2%;
 }
-#iphone img{
+
+#iphone img {
     height: 85vh;
 }
-#about>.container-fluid>.row-fluid {
+
+#about > .container-fluid > .row-fluid {
     margin-top: 5%;
     display: flex;
 }
-#about p{
+
+#about p {
     text-align: left;
     opacity: 1;
 }
+
 /*--------------About------------------------------*/
+
 /*--------------Why we-----------------------------*/
-#whywe h2{
+
+#whywe h2 {
     margin-top: 40vh;
 }
-#whywe p{
+
+#whywe p {
     opacity: 1;
     font-size: 2.5vh;
 }
+
 /*--------------Why we-----------------------------*/
+
 /*------------Form---------------------------------*/
-#forma{
-    background: url(../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png) no-repeat;
+
+#forma {
+    background: url(../img/bckgnd2.png) no-repeat;
     background-size: 105%;
-    height: 110vh;
+    height: 130vh;
 }
-#forma h2{
-    margin-top: 5vh;
+
+#forma h2 {
+    font-size: 4vh;
+    margin-top: 15vh;
     color: #ffffff;
-    margin-bottom: 7vh;
+    margin-bottom: 15vh;
 }
-.form_contacts{
+
+.form_contacts {
     display: flex;
     margin-bottom: 5vh;
 }
-.fform{
+
+.fform {
     border-radius: 10px;
-    border: 2px solid #c1fee7;  
+    border: 2px solid #c1fee7;
     padding: 2vh 2vw;
     width: 40vw;
     text-align: left;
     margin-bottom: 5vh;
 }
-.fform input{
+
+.fform input {
     height: 5vh;
 }
-.fform h3{
+
+.fform h3 {
     font-size: 3vh;
     color: #ffffff;
     margin: 0;
@@ -193,9 +245,10 @@ header button {
     margin-top: 2vh;
     margin-bottom: 4vh;
 }
-.form-control{
-    border-radius:0;
-    color: #ffff;
+
+.form-control {
+    border-radius: 0;
+    color: #ffffff;
     opacity: 1;
     background: none;
     padding: 0;
@@ -206,118 +259,147 @@ header button {
     resize: none;
     font-size: 2.6vh;
 }
-.form-control::-webkit-input-placeholder {color:#ffffff;}
-.form-control::-moz-placeholder          {color:#ffffff;}
-.form-control:-moz-placeholder           {color:#ffffff;}
-.form-control:-ms-input-placeholder      {color:#ffffff;}
+
+.form-control::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.form-control:-moz-placeholder {
+    color: #ffffff;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #ffffff;
+}
+
 /*------------Form---------------------------------*/
+
 /*------------Contacts-----------------------------*/
-.contacts h3{
+
+.contacts h3 {
     font-size: 3vh;
     color: #ffffff;
 }
-.contacts{
+
+.contacts {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     width: 40vw;
     height: 50vh;
     text-align: center;
 }
-.contacts_down img{
+
+.contacts_down img {
     float: left;
     margin-left: 10vw;
 }
-.contacts_down p, .contacts_down a{
+
+.contacts_down p,
+.contacts_down a {
     color: white;
     opacity: 1;
-    margin:0;
+    margin: 0;
     padding: 0;
     float: left;
     margin-left: 3vw;
 }
-.contacts_down a{
-    display:block;
+
+.contacts_down a {
+    display: block;
 }
+
 /*------------Contacts-----------------------------*/
-footer{
+
+footer {
     padding-top: 3%;
     height: 14vh;
     text-align: center;
     color: #ffffff;
     background: black;
 }
+
 /*------------Mobile------------------------------*/
-@media only screen and (max-device-width:480px){
+
+@media only screen and (max-device-width:480px) {
     .navbar-nav {
-    float: none;
-    text-align: center;
-}
+        float: none;
+        text-align: center;
+    }
     .navbar-default {
-    background: transparent;
-    padding: 0;
-    border: 0;
+        background: transparent;
+        padding: 0;
+        border: 0;
     }
     .navbar-default .navbar-nav > li > a {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 2vh;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 2vh;
     }
     .navbar img {
-    width: 15vh;
-    height: auto;
+        width: 15vh;
+        height: auto;
     }
     header {
-    background: url(../img/background.png) no-repeat;
-    height: 100vh;
+        background: url(../img/background.png) no-repeat;
+        height: 100vh;
     }
     h1 {
-    text-transform: uppercase;
-    color: #ffff;
-    font-size: 3vh;
-    font-weight: 600;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 3vh;
+        font-weight: 600;
     }
-    header p{
-    margin-top: 2vh;
-    font-size: 2.5vh;
-    color: #ffff;
-    opacity: 0.6;
-    width: 80%;
+    header p {
+        margin-top: 2vh;
+        font-size: 2.5vh;
+        color: #ffffff;
+        opacity: 0.6;
+        width: 80%;
     }
-    section h2{
-    margin-top: 5%;
-    font-size: 2.5vh;
-    text-align: center;
-    font-weight: 600;
+    section h2 {
+        margin-top: 5%;
+        font-size: 2.5vh;
+        text-align: center;
+        font-weight: 600;
     }
-    section p{
-    margin-top: 4%;
-    padding: 0 15%;
-    text-align: center;
-    opacity: 0.7;
+    section p {
+        margin-top: 4%;
+        padding: 0 15%;
+        text-align: center;
+        opacity: 0.7;
     }
-    #advices{
-    height: auto;
-    }
-    #services{
-    height:auto;
-    }
-    #about{
+    #advices {
         height: auto;
     }
-    #forma{
-        background: url(../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png) no-repeat;
+    .advices img {
+    height: 6vh;
+    width: 10vw;
+}
+    #services {
         height: auto;
     }
-    .form_contacts{
+    #about {
+        height: auto;
+    }
+    #forma {
+        background: url(../img/bckgnd2.png) no-repeat;
+        height: auto;
+    }
+    .form_contacts {
         flex-direction: column;
     }
-    .fform{
+    .fform {
         width: 80vw;
     }
-    .contacts{
+    .contacts {
         width: 80vw;
         height: 50vh;
     }
 }
+
 /*------------Mobile------------------------------*/
